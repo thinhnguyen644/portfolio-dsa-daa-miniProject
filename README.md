@@ -31,7 +31,63 @@ Mục tiêu của mình là luyện tập tư duy thuật toán, nắm chắc n�
 
 ## 📂 Cấu trúc thư mục 
 
-<pre> dsa-daa-miniproject/ ├── <a href="./README.md">README.md</a> ├── <a href="./LICENSE">LICENSE</a> ├── <a href="./.gitignore">.gitignore</a> │ ├── <a href="./dsa/">dsa/</a> # Nhóm cấu trúc dữ liệu & thuật toán cơ bản │ ├── <a href="./dsa/data-structures/">data-structures/</a> │ │ ├── <a href="./dsa/data-structures/stack.py">stack.py</a> │ │ ├── <a href="./dsa/data-structures/queue.py">queue.py</a> │ │ ├── <a href="./dsa/data-structures/linked_list.py">linked_list.py</a> │ │ └── <a href="./dsa/data-structures/README.md">README.md</a> │ ├── <a href="./dsa/sorting-algorithms/">sorting-algorithms/</a> │ │ ├── <a href="./dsa/sorting-algorithms/bubble_sort.py">bubble_sort.py</a> │ │ ├── <a href="./dsa/sorting-algorithms/quick_sort.py">quick_sort.py</a> │ │ └── <a href="./dsa/sorting-algorithms/README.md">README.md</a> │ ├── <a href="./dsa/searching-algorithms/">searching-algorithms/</a> │ │ ├── <a href="./dsa/searching-algorithms/linear_search.py">linear_search.py</a> │ │ ├── <a href="./dsa/searching-algorithms/binary_search.py">binary_search.py</a> │ │ └── <a href="./dsa/searching-algorithms/README.md">README.md</a> │ └── <a href="./dsa/README.md">README.md</a> # Tổng quan nhóm DSA │ ├── <a href="./daa/">daa/</a> # Nhóm phân tích & thiết kế giải thuật │ ├── <a href="./daa/dynamic-programming/">dynamic-programming/</a> │ │ ├── <a href="./daa/dynamic-programming/knapsack.py">knapsack.py</a> │ │ ├── <a href="./daa/dynamic-programming/fibonacci.py">fibonacci.py</a> │ │ └── <a href="./daa/dynamic-programming/README.md">README.md</a> │ ├── <a href="./daa/greedy-algorithms/">greedy-algorithms/</a> │ │ ├── <a href="./daa/greedy-algorithms/fractional_knapsack.py">fractional_knapsack.py</a> │ │ └── <a href="./daa/greedy-algorithms/README.md">README.md</a> │ ├── <a href="./daa/backtracking/">backtracking/</a> │ │ ├── <a href="./daa/backtracking/n_queens.py">n_queens.py</a> │ │ └ 
+dsa-daa-miniproject/
+├── [README.md](./README.md)
+├── [LICENSE](./LICENSE)
+├── [.gitignore](./.gitignore)
+│
+├── [dsa/](./dsa/)                        # Nhóm cấu trúc dữ liệu & thuật toán cơ bản
+│   ├── [data-structures/](./dsa/data-structures/)
+│   │   ├── [stack.py](./dsa/data-structures/stack.py)
+│   │   ├── [queue.py](./dsa/data-structures/queue.py)
+│   │   ├── [linked_list.py](./dsa/data-structures/linked_list.py)
+│   │   └── [README.md](./dsa/data-structures/README.md)
+│   ├── [sorting-algorithms/](./dsa/sorting-algorithms/)
+│   │   ├── [bubble_sort.py](./dsa/sorting-algorithms/bubble_sort.py)
+│   │   ├── [quick_sort.py](./dsa/sorting-algorithms/quick_sort.py)
+│   │   └── [README.md](./dsa/sorting-algorithms/README.md)
+│   ├── [searching-algorithms/](./dsa/searching-algorithms/)
+│   │   ├── [linear_search.py](./dsa/searching-algorithms/linear_search.py)
+│   │   ├── [binary_search.py](./dsa/searching-algorithms/binary_search.py)
+│   │   └── [README.md](./dsa/searching-algorithms/README.md)
+│   └── [README.md](./dsa/README.md)
+│
+├── [daa/](./daa/)                        # Nhóm phân tích & thiết kế giải thuật
+│   ├── [dynamic-programming/](./daa/dynamic-programming/)
+│   │   ├── [knapsack.py](./daa/dynamic-programming/knapsack.py)
+│   │   ├── [fibonacci.py](./daa/dynamic-programming/fibonacci.py)
+│   │   └── [README.md](./daa/dynamic-programming/README.md)
+│   ├── [greedy-algorithms/](./daa/greedy-algorithms/)
+│   │   ├── [fractional_knapsack.py](./daa/greedy-algorithms/fractional_knapsack.py)
+│   │   └── [README.md](./daa/greedy-algorithms/README.md)
+│   ├── [backtracking/](./daa/backtracking/)
+│   │   ├── [n_queens.py](./daa/backtracking/n_queens.py)
+│   │   └── [README.md](./daa/backtracking/README.md)
+│   ├── [divide-and-conquer/](./daa/divide-and-conquer/)
+│   │   ├── [merge_sort.py](./daa/divide-and-conquer/merge_sort.py)
+│   │   └── [README.md](./daa/divide-and-conquer/README.md)
+│   ├── [graph-algorithms/](./daa/graph-algorithms/)
+│   │   ├── [bfs.py](./daa/graph-algorithms/bfs.py)
+│   │   ├── [dfs.py](./daa/graph-algorithms/dfs.py)
+│   │   └── [README.md](./daa/graph-algorithms/README.md)
+│   ├── [analysis/](./daa/analysis/)
+│   │   ├── [time_complexity_notes.md](./daa/analysis/time_complexity_notes.md)
+│   │   └── [visualizations.png](./daa/analysis/visualizations.png)
+│   └── [README.md](./daa/README.md)
+│
+└── [mini-projects/](./mini-projects/)              # Các project ứng dụng
+    ├── [sorting-visualizer/](./mini-projects/sorting-visualizer/)
+    │   ├── [main.py](./mini-projects/sorting-visualizer/main.py)
+    │   ├── [README.md](./mini-projects/sorting-visualizer/README.md)
+    ├── [dijkstra-pathfinder/](./mini-projects/dijkstra-pathfinder/)
+    │   ├── [dijkstra.py](./mini-projects/dijkstra-pathfinder/dijkstra.py)
+    │   ├── [grid_ui.py](./mini-projects/dijkstra-pathfinder/grid_ui.py)
+    │   ├── [README.md](./mini-projects/dijkstra-pathfinder/README.md)
+    └── [knapsack-solver/](./mini-projects/knapsack-solver/)
+        ├── [knapsack.py](./mini-projects/knapsack-solver/knapsack.py)
+        ├── [input.txt](./mini-projects/knapsack-solver/input.txt)
+        ├── [README.md](./mini-projects/knapsack-solver/README.md)
+ 
  
 ---
 
