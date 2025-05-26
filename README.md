@@ -30,7 +30,7 @@ Mục tiêu của mình là luyện tập tư duy thuật toán, nắm chắc n�
 ---
 
 ## 📂 Cấu trúc thư mục 
-
+```
 dsa-daa-miniproject/
 ├── [README.md](./README.md)
 ├── [LICENSE](./LICENSE)
@@ -87,7 +87,7 @@ dsa-daa-miniproject/
         ├── [knapsack.py](./mini-projects/knapsack-solver/knapsack.py)
         ├── [input.txt](./mini-projects/knapsack-solver/input.txt)
         ├── [README.md](./mini-projects/knapsack-solver/README.md)
- 
+ ```
  
 ---
 
