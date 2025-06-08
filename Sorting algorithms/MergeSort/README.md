@@ -6,41 +6,38 @@ Merge Sort là một thuật toán sắp xếp theo kiểu chia để trị (Div
 
 ## 🧠 Mô phỏng Cách hoạt động
 
-![image](https://github.com/user-attachments/assets/8310184e-2d35-4dcc-92a6-290e448901fc)  
-- cho 1 mảng chứa các phần tử chưa được sắp xếp
-![image](https://github.com/user-attachments/assets/29334c0e-9a9b-4b25-b0a8-142c831e2b98)
+![image](https://github.com/user-attachments/assets/b1d0be81-9328-40a1-8df7-77e54b0d7d23)  
 
-![image](https://github.com/user-attachments/assets/68c25779-5777-4d1c-a814-bf7305700a23)  
-
-![image](https://github.com/user-attachments/assets/7585d73b-fecc-43f6-9971-df08f6c5e8a0)  
-
-![image](https://github.com/user-attachments/assets/9f2198f4-5e25-4d21-9549-5b0aa7afc664)  
-
-![image](https://github.com/user-attachments/assets/8844c80b-e76e-40a6-8160-a07bf0657937)  
-
-![image](https://github.com/user-attachments/assets/8a490da9-3c0f-46de-b2a8-3757999b0619)  
-
+- Chia (Divide)  
+  + Nếu mảng có nhiều hơn 1 phần tử, chia mảng thành 2 nửa gần bằng nhau.
+  + Gọi đệ quy chính nó để tiếp tục chia nhỏ từng nửa cho đến khi còn các mảng con chỉ chứa 1 phần tử (mặc định đã được sắp xếp)
+- Trị (Conquer)
+  + Sắp xếp từng mảng con bằng cách gộp hai phần đã chia lại với nhau theo thứ tự tăng dần.
+- Trộn (Merge)
+  + Trộn các mảng con đã sắp xếp lại với nhau thành mảng lớn hơn, theo thứ tự đúng.
 
 ---
 
-## 📂 Nội dung chính
+## 📘 Pseudo code
 
-| 📁 Thư mục       | 📄 Mô tả nội dung chính |
-|------------------|--------------------------|
-| [`dsa/`](./dsa/) | Các cấu trúc dữ liệu và thuật toán cơ bản như sắp xếp, tìm kiếm, stack, queue,... |
-| [`daa/`](./daa/) | Các chiến lược giải thuật nâng cao như quy hoạch động, tham lam, chia để trị, đồ thị,... |
-| [`mini-projects/`](./mini-projects/) | Dự án nhỏ minh họa và ứng dụng thuật toán: visualizer, solver,... |
+![image](https://github.com/user-attachments/assets/0fb47930-42a1-499e-bdaa-11734b5ad9ff)  
+![image](https://github.com/user-attachments/assets/db84cd15-32ab-48e8-b22a-07d7900416a2)
 
 ---
 
-## 🎯 Mục tiêu học tập
+## 🎯 Analysis complexity
 
-- Hiểu rõ cách triển khai và phân tích thuật toán
-- Phân biệt và áp dụng đúng chiến lược giải thuật (DP, Greedy, Backtracking,...)
-- Củng cố nền tảng để học chuyên sâu (Machine Learning, System Design, Backend)
-- Thực hành thiết kế và xây dựng sản phẩm phần mềm nhỏ
-- Chuẩn bị cho phỏng vấn kỹ thuật (technical interviews)
+- Dựa vào pseudo code ta có thể tạo cost table như sau
+  + MergeSort
 
+  + Merge
+
+- Theo Master theorem: T(n) = c + aT(n/b) + f(n)
+  + c: số operations phụ trợ (hằng số --> không đáng kể)
+  + a: số subproblem (số bài toán con) --> 2
+  + n/b: số lượng input của subproblems --> n/2
+  + f(n): độ phức tạp của merge function --> n
+- Complexity: T(n) = 2T(n/2) + 
 ---
 
 ## 🛠 Công nghệ sử dụng
