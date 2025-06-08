@@ -6,19 +6,20 @@ Merge Sort là một thuật toán sắp xếp theo kiểu chia để trị (Div
 
 ## 🧠 Mô phỏng Cách hoạt động
 
-![image](https://github.com/user-attachments/assets/8310184e-2d35-4dcc-92a6-290e448901fc)
+![image](https://github.com/user-attachments/assets/8310184e-2d35-4dcc-92a6-290e448901fc)  
+- cho 1 mảng chứa các phần tử chưa được sắp xếp
 ![image](https://github.com/user-attachments/assets/29334c0e-9a9b-4b25-b0a8-142c831e2b98)
-![image](https://github.com/user-attachments/assets/68c25779-5777-4d1c-a814-bf7305700a23)
-![image](https://github.com/user-attachments/assets/7585d73b-fecc-43f6-9971-df08f6c5e8a0)
-![image](https://github.com/user-attachments/assets/9f2198f4-5e25-4d21-9549-5b0aa7afc664)
-![image](https://github.com/user-attachments/assets/8844c80b-e76e-40a6-8160-a07bf0657937)
-![image](https://github.com/user-attachments/assets/8a490da9-3c0f-46de-b2a8-3757999b0619)
 
+![image](https://github.com/user-attachments/assets/68c25779-5777-4d1c-a814-bf7305700a23)  
 
-- 🎓 Sinh viên ngành Công nghệ Thông tin (Beginner in DSA/DAA)
-- 🧩 Đam mê thuật toán, tối ưu và giải quyết vấn đề
-- 🎯 Mục tiêu: Trở thành Software Engineer / AI Engineer trong 5–7 năm tới
-- 🛠️ Ngôn ngữ chính: Java, Javascript, Python
+![image](https://github.com/user-attachments/assets/7585d73b-fecc-43f6-9971-df08f6c5e8a0)  
+
+![image](https://github.com/user-attachments/assets/9f2198f4-5e25-4d21-9549-5b0aa7afc664)  
+
+![image](https://github.com/user-attachments/assets/8844c80b-e76e-40a6-8160-a07bf0657937)  
+
+![image](https://github.com/user-attachments/assets/8a490da9-3c0f-46de-b2a8-3757999b0619)  
+
 
 ---
 
