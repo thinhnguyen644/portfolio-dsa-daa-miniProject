@@ -21,23 +21,48 @@ Merge Sort là một thuật toán sắp xếp theo kiểu chia để trị (Div
 ## 📘 Pseudo code
 
 ![image](https://github.com/user-attachments/assets/0fb47930-42a1-499e-bdaa-11734b5ad9ff)  
-![image](https://github.com/user-attachments/assets/db84cd15-32ab-48e8-b22a-07d7900416a2)
+![image](https://github.com/user-attachments/assets/dd097631-c3fb-4bec-bfce-2b3827523ea2)
 
 ---
 
 ## 🎯 Analysis complexity
 
 - Dựa vào pseudo code ta có thể tạo cost table như sau
-  + MergeSort
-
   + Merge
+
+| 📁 line          | 📄 cost        | 📊Loop
+|------------------|--------------------------|
+| 1 | 4 |  1  |
+| 2 | 2 |  < n  |  
+| 3 | 1 |  < n  |  
+| 4 | 1 |  < n  |
+| 5 | 1 |  < n  |
+| 6 | 1 |  < n  | 
+| 7 | 1 |  < n  |
+| 8 | 1 |  < n  |
+| 9 | 1 |  < n  |  
+| 10 | 2 |  < n  |  
+| 11 | 1 |  < n  |  
+| 12 | 1 |  < n  |
+| 13 | 1 |  < n  |
+| 14 | 1 |  < n  | 
+| 15 | 1 |  < n  |
+| 16 | 1 |  < n  |
+| 17 | 1 |  < n  |  
+
+==> complexity < 16n + 1 ==> O(n)
 
 - Theo Master theorem: T(n) = c + aT(n/b) + f(n)
   + c: số operations phụ trợ (hằng số --> không đáng kể)
   + a: số subproblem (số bài toán con) --> 2
   + n/b: số lượng input của subproblems --> n/2
-  + f(n): độ phức tạp của merge function --> n
-- Complexity: T(n) = 2T(n/2) + 
+  + f(n): độ phức tạp của merge function --> để đơn giản, ta làm tròn thành n
+- Complexity: T(n) = 2T(n/2) + n = 2*(2*T(n/2^2) + n) + n = ... = 2^k * T(n/2^k) + kn
+- basecase là 1 ==> n/2^k = 1 ==> k = log2(n)
+- Thay vào phương trình: T(n) = 2^(log2(n)) * T(1) + n*log2(n)
+- Rút gọn phương trình: T(n) = n*1 + nlog2(n) <=> T(n) = n*(log2(n) + 1)
+- Vậy độ phức tạp là: n*(log2(n) + 1) ==> O(nlogn)
+  
 ---
 
 ## 🛠 Công nghệ sử dụng
